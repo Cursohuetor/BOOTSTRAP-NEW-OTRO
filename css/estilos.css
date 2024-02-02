@@ -1,0 +1,47 @@
+/*prueba de hover para una foto de fondo background image*/
+/**/
+.tres{
+    background-image: url(../img/nieve.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.tres:hover{
+    background-image: url(../img/puente.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*cambio color fondo del menu navegación*/
+nav.bg-body-tertiary {
+    background-color: #c0bfbf!important;
+}
+
+/*cambio altura del slider*/
+.carousel-inner img{
+    height: 20%;
+}
+
+
+i.bi-balloon-heart-fill{
+    font-size:50px;
+    color: rgb(221, 58, 85);
+}
+div.container a h2{
+    
+    color: black;
+}
+a.navbar-brand img{
+    margin-top: 10px;
+}
+.menu{
+    background-color: burlywood;
+}
+@media(max-width:650px){
+    a.nav-link {
+        
+        font-size: 15px;
+      
+    }
+}
